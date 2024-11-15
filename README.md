@@ -19,7 +19,7 @@ Setting a Django Project
     python manage.y makemigrations
     python manage.py migrate
 ### Making sure the database is functioning
-in the file section click file
+in the file section click file then click view section the click tool windows then database and set it to sqlite database
 ### create the contact form
     imports: 'from django import forms'
              'from .models import Contact'
