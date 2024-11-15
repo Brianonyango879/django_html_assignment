@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        'nd nd nd nd nd nd nd nd'
+        'hd hd hd hd hd hd hd hd'
+        'td td td td td td td td'
+        'sd sd sd sd sd sd sd sd'
+        'fd fd fd fd fd fd fd fd';
+}
+
+#NavbarDiv {
+    grid-area: nd;
+}
+
+#HeaderDiv {
+    grid-area: hd;
+}
+
+#TaglineDiv {
+    grid-area: td;
+}
+
+#SkillsDiv {
+    grid-area: sd;
+}
+
+#FooterDiv {
+    grid-area: fd;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+        'nd nd nd nd nd nd nd nd'
+        'hd hd hd hd hd hd hd hd'
+        'td td td td td td td td'
+        'sd sd sd sd sd sd sd sd'
+        'fd fd fd fd fd fd fd fd';
+    }
+}
